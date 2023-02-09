@@ -1,0 +1,53 @@
+* {
+  color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.left-column, .right-column {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  background-color: #528380;
+  padding: 30px;
+}
+
+.left-column h1 {
+  padding-bottom: 2em;
+}
+
+.left-column button {
+  background: #144943;
+  border: inherit;
+  border-radius: 51rem;
+  -webkit-border-radius: 51rem;
+  -moz-border-radius: 51rem;
+  -ms-border-radius: 51rem;
+  -o-border-radius: 51rem;
+  color: white;
+  padding: 20px;
+}
+
+.right-column {
+  background-image: url(/img/column-image.png);
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 48em) {
+  .right-column, .left-column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 40vh;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=app.css.map */
